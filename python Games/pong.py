@@ -27,11 +27,11 @@ def main():
     player2_score = 0
 
     #initialising picture surfaces
-    background_surface=pygame.image.load('D:/Kamlesh/python games/Assets/bg.jpg').convert()
-    player_2_surf=pygame.image.load('D:/Kamlesh/python games/Assets/player 2 win.jpg').convert()
-    player_1_surf=pygame.image.load('D:/Kamlesh/python games/Assets/player 1 win.jpg').convert()
-    font = pygame.font.Font('D:/Kamlesh/python games/Assets/digital-7 (italic).ttf', 90)
-    intro_surf=pygame.image.load('D:/Kamlesh/python games/Assets/start screen.jpg').convert()
+    background_surface=pygame.image.load('D:/python games/Assets/bg.jpg').convert()
+    player_2_surf=pygame.image.load('D:/python games/Assets/player 2 win.jpg').convert()
+    player_1_surf=pygame.image.load('D:/python games/Assets/player 1 win.jpg').convert()
+    font = pygame.font.Font('D:/python games/Assets/digital-7 (italic).ttf', 90)
+    intro_surf=pygame.image.load('D:/python games/Assets/start screen.jpg').convert()
 
     running=False
     while True:
